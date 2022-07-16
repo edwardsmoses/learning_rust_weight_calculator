@@ -1,5 +1,6 @@
 fn main() {
-    let weight_on_mars = calculate_weight_on_mars(100.0);
+    let mut weight_on_mars = calculate_weight_on_mars(100.0);
+    weight_on_mars = weight_on_mars * 1000.0;
     println!("Weight on Mars: {}kg", weight_on_mars);
 }
 
