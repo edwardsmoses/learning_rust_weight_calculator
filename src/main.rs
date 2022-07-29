@@ -1,5 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world!, Number: {}, String: {}", 100, "abcd is passed");
 
     calculate_weight_on_mars(100.0);
 }
