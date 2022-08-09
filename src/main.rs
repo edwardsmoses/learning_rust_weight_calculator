@@ -11,19 +11,9 @@ fn main() {
     weight_on_mars = weight_on_mars * 1000.0;
     println!("Weight on Mars: {}kg", weight_on_mars);
    
-
-    borrow_string(&weight_input);
-    own_string(weight_input);
 }
 
 fn calculate_weight_on_mars(weight: f32) -> f32 {
     (weight / 9.81) * 3.711
 }
 
-fn borrow_string(s: &String) {
-    println!("{}", s)
-}
-
-fn own_string(s: String) {
-    println!("{}", s)
-}
